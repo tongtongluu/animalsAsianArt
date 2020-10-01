@@ -1,0 +1,528 @@
+/* real animals */
+[{
+    "name": "antelope",
+    "children": [
+        {
+        "name": "paper",
+        "children": [
+            {"name": "ink", "size": 1},
+            {"name": "color", "size": 1}
+            ]
+        }
+    ]
+},
+
+{
+    "name": "bear",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":10},
+                {"name": "bronze with gilding","size":12},
+                {"name": "bronze with inlay","size":1}
+            ]
+        },
+        {
+            "name": "paper",
+            "children":[
+                {"name":"opaque water color","size":1}
+            ]
+        }
+            ]   
+},
+
+{
+    "name": "bird",
+    "children": [
+        {
+            "name": "glass", "size":2
+        },
+        {
+            "name": "jade", "size":10 
+        },
+        {
+            "name" : "metal",
+            "children":[
+                {"name": "bronze", "size":24},
+                {"name": "lead", "size":1},
+                {"name": "bronze with gilding", "size":1}
+            ]
+        },
+        {
+            "name": "paper",
+            "children":[
+                {"name": "color", "size":2},
+                {"name": "etching", "size":1},
+                {"name": "watercolor", "size":2},
+                {"name": "wood engraving", "size":1}
+            ]
+        },
+        {
+            "name": "ceramic",
+            "children":[
+                {"name": "stone paste", "size":1}
+            ]
+        },
+        {
+            "name": "silver",
+            "children":[
+                {"name": "silver with gliding", "size":2}
+            ]
+        },
+       {
+            "name": "silk", "size":5
+       }
+    ]
+},
+{
+    "name": "butterfly",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":2},
+                {"name": "bronze with gilding","size":1}
+            ]
+        },
+        {
+            "name": "paper",
+            "children":[
+                {"name":"ink","size":1}
+            ]
+        },
+        {
+            "name": "silk", "size":2
+        }
+    ]    
+},
+
+{
+    "name": "buffalo",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":2}
+            ]
+        }
+    ]    
+},
+{
+    "name": "cheetah",
+    "children": [
+        {
+            "name": "paper",
+            "children": [
+                {"name": "watercolor","size":1}
+            ]
+        }
+    ]   
+},
+{
+    "name": "cicada",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":1}
+            ]
+        },
+        {
+            "name": "jade", "size":1
+        }
+    ]   
+},
+{
+    "name": "cow",
+    "children": [
+        {
+            "name": "paper",
+            "children": [
+                {"name": "watercolor","size":1}
+            ]
+        }
+    ] 
+
+},
+{
+    "name": "deer",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":2},
+                {"name": "bronze with gilding","size":1},
+                {"name": "bronze with inlay","size":1}
+            ]
+        },
+        {
+            "name": "paper",
+            "children":[
+                {"name":"color on paper","size":4}
+            ]
+        },
+        {
+            "name": "silk", "size":2
+        }
+    ]    
+},
+{
+    "name": "duck",
+    "children": [
+        {
+            "name": "silver",
+            "children": [
+                {"name": "silver with gilding","size":1}
+            ]
+        }
+    ] 
+
+},
+{
+    "name": "dog",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "copper","size":1}
+            ]
+        },
+        {
+            "name": "paper",
+            "children": [
+                {"name" : "etching", "size": 2},
+                {"name" : "watercolor", "size": 1}
+            ]
+        }
+    ]   
+},
+{
+    "name": "elephant",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":2}
+            ]
+        },
+        {
+            "name": "paper",
+            "children":[
+                {"name":"ink","size":1},
+                {"name":"tracing","size":1},
+                {"name":"watercolor","size":3},
+                {"name":"color","size":1}
+            ]
+        },
+        {
+            "name": "jade", "size":2
+        },
+        {
+            "name": "stone", "size":1
+        },
+        {
+            "name": "other",
+            "children": [
+                {"name": "ivory","size":1}
+            ]
+        } 
+    ]    
+},
+{
+    "name": "horse",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":14},
+                {"name": "bronze with gilding","size":1},
+                {"name": "cooper","size":1},
+                {"name": "lead","size":1}
+            ]
+        },
+        {
+            "name": "paper",
+            "children":[
+                {"name":"ink","size":1},
+                {"name":"tracing","size":1},
+                {"name":"watercolor","size":5},
+                {"name":"color","size":2},
+                {"name":"etching","size":9}
+            ]
+        },
+        {
+            "name": "stone", "size":2
+        }
+    ]    
+},
+{
+    "name": "leopard",
+    "children": [
+        {
+            "name": "paper",
+            "children": [
+                {"name": "ink","size":1}
+            ]
+        }
+    ] 
+  
+},
+{
+    "name": "fish",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":2}
+            ]
+        }
+    ] 
+
+},
+{
+    "name": "lion",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":5},
+                {"name": "bronze with gilding","size":4}
+            ]
+        },
+        {
+            "name": "paper",
+            "children":[
+                {"name":"ink","size":2},
+                {"name":"watercolor","size":1}
+            ]
+        },
+        {
+            "name": "stone",
+            "children":[
+                {"name":"gilding","size":1},
+                {"name":"limestone","size":1},
+                {"name":"stone","size":13}
+            ]
+        },
+        {
+            "name": "ceramic",
+            "children":[
+                {"name":"earthenware","size":1}
+            ]
+        },
+        {
+            "name":"glass","size":1
+        },
+        {
+            "name":"jade","size":2
+        },
+        {
+            "name": "other",
+            "children":[
+                {"name":"ivory","size":1}
+            ]
+        }
+    ]    
+},
+{
+    "name": "monkey",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":3}
+            ]
+        },
+        {
+            "name": "paper",
+            "children":[
+                {"name":"watercolor","size":1}
+            ]
+        },
+        {
+            "name": "stone",
+            "children":[
+                {"name":"marble","size":2}
+            ]
+        },
+        {
+            "name": "other",
+            "children":[
+                {"name":"palm leaf","size":1}
+            ]
+        }
+    ]    
+},
+{
+    "name": "rabbit",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":1}
+            ]
+        },
+        {
+            "name": "ceramic",
+            "children":[
+                {"name":"stone paste","size":1}
+            ]
+        },
+        {
+            "name": "silver",
+            "children":[
+                {"name":"silver with gilding","size":2}
+            ]
+        }
+    ]    
+},
+{
+    "name": "sheep",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":1}
+            ]
+        },
+        {
+            "name": "paper",
+            "children":[
+                {"name":"watercolor","size":1},
+                {"name":"color","size":1}
+            ]
+        },
+        {
+            "name": "stone","size":2
+        }    
+    ]    
+},
+{
+    "name": "tiger",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":2},
+                {"name": "bronze with gilding","size":1}
+            ]
+        },
+        {
+            "name": "paper",
+            "children":[
+                {"name":"color","size":1}
+            ]
+        }   
+    ]    
+},
+{
+    "name": "turtle",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":1},
+                {"name": "bronze with gilding","size":1}
+            ]
+        } 
+    ]    
+},
+
+
+/*unreal animals or undefined*/
+
+{
+    "name": "dragon",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":6},
+                {"name": "bronze with gilding","size":2}
+            ]
+        },
+        {
+            "name": "paper",
+            "children":[
+                {"name":"watercolor","size":1}
+            ]
+        },
+        {
+            "name": "stone",
+            "children":[
+                {"name":"marble","size":1}
+            ]
+        },
+        {
+            "name": "jade","size":1
+        }
+    ] 
+},
+{
+    "name": "undefined beasts",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":44},
+                {"name": "bronze with gilding","size":17},
+                {"name": "bronze with inlay","size":8},
+                {"name": "lead","size":1}
+            ]
+        },
+        {
+            "name": "jade", "size" : 1
+        }
+    ] 
+},
+{
+    "name": "phoenix",
+    "children": [
+        {
+            "name": "silver",
+            "children": [
+                {"name": "silver with gilding","size":1}
+            ]
+        },
+        {
+            "name": "paper",
+            "children":[
+                {"name":"watercolor","size":1}
+            ]
+        }
+    ] 
+},
+{
+    "name": "taotie",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":1}
+            ]
+        },
+        {
+            "name": "paper",
+            "children":[
+                {"name":"watercolor","size":1}
+            ]
+        }
+    ] 
+},
+{
+    "name": "serpent",
+    "children": [
+        {
+            "name": "metal",
+            "children": [
+                {"name": "bronze","size":2}
+            ]
+        }
+    ] 
+}
+]   
+
+
+
+       
