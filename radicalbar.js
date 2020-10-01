@@ -1,3 +1,4 @@
+
 function makeCharts() {
     const width = 960,
         height = 960,
@@ -19,6 +20,7 @@ function makeCharts() {
         arcPadding = 3,
         labelPadding = 25,
         numTicks = 0;
+    var data = [];
     data[0] = { name: "Undefined creature", value: 71 };
     data[1] = { name: "Bird", value: 52 };
     data[2] = { name: "Horse", value: 37 };
