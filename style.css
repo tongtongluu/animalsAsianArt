@@ -60,7 +60,7 @@ body {
     display: inline;
     font-family: 'Nanum Gothic';
     font-size: 42px;
-    color: rgb(165, 29, 12);
+    color: #AA211F;
 }
 
 .summary {
@@ -69,13 +69,27 @@ body {
     padding: 5px;
 }
 
+.summaryDetails {
+    font-family: 'Nanum Gothic';
+    font-size: 18px;
+    padding: 5px;
+    margin-top: -80px;
+    margin-right: 800px;
+    margin-left: 100px;
+}
+
 .intext {
     width: 200px;
     height: 160px;
     margin-top: -440px;
     margin-left: 475px;
 }
-
+.intextDetails {
+    width: 500px;
+    height: 160px;
+    margin-top: -120px;
+    margin-left: 1000px;
+}
 .title_small {
     font-family: 'Nanum Pen Script';
     font-size: 24px;
@@ -117,8 +131,7 @@ body {
 
 .icon2 {
     height: 50px;
-    width: 100px;
-    transform: rotate(-90deg);
+    width: 50px;
     margin-top: 100px;
     margin-bottom: -100px;
 }
@@ -314,6 +327,16 @@ text.title {
     text-align: center;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Nanum Pen Script';
+    font-size: 54px;
+}
+
+.headerDetails {
+    width: 1520px;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 100px;
     margin-bottom: 100px;
     font-family: 'Nanum Pen Script';
     font-size: 54px;

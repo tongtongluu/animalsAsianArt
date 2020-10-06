@@ -185,48 +185,44 @@ function fade(opacity) {
     };
 } //fade
 
+
 // add annotations
 const annotations = [{
         //below in makeAnnotations has type set to d3.annotationLabel
         //you can add this type value below to override that default
         type: d3.annotationCalloutCircle,
         note: {
-            label: "with dragon,xxxxx,xxx and xxxx",
-            title: "most popular animal among all the collections",
+            label: "most popular animals among all the collections",
+            title: "Bird paired with almost all 4 mythical animals",
             wrap: 150
         },
         //settings for the subject, in this case the circle radius
         subject: {
-            radius: 30
+            radius: 50
         },
-        x: 0.75 * width,
-        y: 0.55 * height,
-        dy: 30,
-        dx: 20
-    },
-    {
-        note: {
-            label: "with dragon,xxxxx,xxx and xxxx",
-            title: "most popular animal among all the collections",
-            wrap: 150,
-            align: "right"
-        },
-        connector: {
-            end: "dot",
-            type: "curve",
-            //can also add a curve type, e.g. curve: d3.curveStep
-            points: [
-                [100, 14],
-                [190, 52]
-            ]
-        },
-        //settings for the subject, in this case the circle radius
-        x: 0.25 * width,
+        x: 0.78 * width,
         y: 0.25 * height,
         dy: 30,
         dx: 20
-    }
-].map(function(d) { d.color = "#A51D0C"; return d })
+    },
+    {   type: d3.annotationCalloutCircle,
+        note: {
+            label: "has appeared 10 times, all collections belong to south asian region, because it is a sacred animal in India and a common theme in South Asian art",
+            title: "The elephant",
+            wrap: 300,
+            align: "left"
+        },
+        subject: {
+            radius: 30
+        },
+        x: 0.82 * width,
+        y: 0.45 * height,
+        dy: 30,
+        dx: 20
+    },
+ 
+    
+].map(function(d) { d.color = "#B9B7B5"; return d })
 
 const makeAnnotations = d3.annotation()
     .type(d3.annotationLabel)
@@ -261,17 +257,17 @@ d3.selectAll('.annotation-subject').each(function() {
     })
 })
 
-d3.selectAll('.annotation-connector').each(function() {
-    let gParent = this
-    d3.select('svg').select('path').each(function() {
-        gParent.appendChild(rc.path(d3.select(this).node().getAttribute('d'), {
-            stroke: 'black',
-            fillStyle: 'hachure',
-            strokeWidth: 0.55,
-            roughness: 2.5,
-        }))
-    })
-})
+// d3.selectAll('.annotation-connector').each(function() {
+//     let gParent = this
+//     d3.select('svg').select('path').each(function() {
+//         gParent.appendChild(rc.path(d3.select(this).node().getAttribute('d'), {
+//             stroke: 'black',
+//             fillStyle: 'hachure',
+//             strokeWidth: 0.55,
+//             roughness: 2.5,
+//         }))
+//     })
+// })
 
 d3.selectAll('.annotation-note').each(function() {
     let gParent = this
@@ -284,3 +280,37 @@ d3.selectAll('.annotation-note').each(function() {
         }))
     })
 })
+
+// create general annotation group:
+const annotationsGeneral = [{
+    note: {
+      label: "",
+      title: " Skip those instances that only appear once, and want to reduce the bias of the data, such as fish, antelope, cicada, etc."
+    
+    },
+    x: 0.45 * width,
+    y: 0.55 * height,
+    dy: 50
+    //dx: 100
+  },
+  {
+    note: {
+      label: "",
+      title: "Hover over icons :)"
+    
+    },
+    x: -0.01 * width,
+    y: 0.35 * height,
+    //dy: 50
+    dx: 100
+  }
+].map(function(d){ d.color = "#AA211F"; return d})
+
+  const makeAnnotationsGeneral = d3.annotation()
+          .type(d3.annotationLabel)
+          .annotations(annotationsGeneral)
+
+        d3.select("svg")
+          .append("g")
+          .attr("class", "annotation-group")
+          .call(makeAnnotationsGeneral)
